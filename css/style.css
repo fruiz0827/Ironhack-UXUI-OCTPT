@@ -3,10 +3,22 @@
     font-family: 'Nunito Sans', sans-serif;
 }
 
+body {
+    margin: 0;
+    padding: 0;
+}
 section {
     border: 1px red dotted;
+    min-height: 100vh;
+    background-color: moccasin;
+    
 }
-/* Text Styles // start */
+
+i {
+    color: mediumpurple;
+
+}
+
 h1 {
    
     color:aqua;
@@ -31,4 +43,44 @@ h5 {
 
 h6 {
 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+}
+
+/* } Text Style // end */
+
+
+
+/* CLASSES */
+
+.bgcolorSection1 {
+    background-color: blueviolet;
+}
+
+.bgcolorSection2 {
+    background-color: brown;
+}
+
+.bgcolorSection3 {
+    background-color: coral;
+}
+
+.bgcolorSection4 {
+    background-color: darkcyan;
+    background-image: url("../img/tudor-baciu-DWPRqPUc0e8-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.fa-search-plus {
+    color: black;
 }
