@@ -7,8 +7,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ironhack Index - Welcome</title>
     
+    <!-- Icons & Fonts -->
     <script src="https://kit.fontawesome.com/bff7ea3e36.js" crossorigin="anonymous"></script>
     <link href="https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
    
 </head>
@@ -16,25 +20,23 @@
 
 <body>
     <!--Header // star-->
-    
-    <header>
-        Logo
-        <img src="logofile.jpg" alt="">
+  
+    <header class="row">
 
-        Menu
-        <menu>
-            <menuitem>Home</menuitem>
-            <menuitem> Products</menuitem>
-            <menuitem>Jobs</menuitem>
-            <menuitem>Contact</menuitem>
-        </menu>
+        <div><!--column 1-->
+        
+        <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Ironhack logo"/>
+        </div>
+
+        <div><!-- col 2-->
+        
         <ul>
             <li>Home</li>
             <li>Products</li>
             <li>Jobs</li>
             <li>Contact</li>
             <i class="fas fa-search-plus fa-2x"></i>
-
+        </div>
         </ul>
         
         
@@ -44,7 +46,7 @@
     
     <!-- hero // star -->
 
-    <section class="bgcolorSection1">
+    <section class="bgcolorSection1 hero">
         <h1>Heading for Content 1</h1>
         <h3>just another text for h3</h3>
     </section>
@@ -52,16 +54,16 @@
 
     <!-- features // star -->
 
-    <section class="bgcolorSection2">
-        <div>
+    <section class="row bgcolorSection2" id="featuresSection">
+        <div class=".centerSection">
             <i class="fas fa-allergies fa-5x"></i>
             <h3>Bug Free</h3>
         </div>
-        <div>
+        <div class=".centerSection">
             <i class="fas fa-birthday-cake fa-5x"></i>
             <h3>Feature 2</h3>
         </div>
-        <div>
+        <div class=".centerSection">
             <i class="fas fa-bone fa-5x"></i>
             <h3>Feature 3</h3>
         </div>
@@ -69,10 +71,19 @@
     <!-- features // end -->
 
     <!-- testimonials // start -->
-    <section class="bgcolorSection3">
-        <div>Testimonial 1</div>
-        <div>Testimonial 2</div>
-        <div>Testimonial 3</div>
+    <section class="row bgcolorSection3">
+        <div id="testimonialSection">Testimonial 1
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonia 1</h4>
+        </div>
+        <div id="testimonialSection">Testimonial 2
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonia 2</h4>
+        </div>
+        <div id="testimonialSection">Testimonial 3
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg">
+            <h4>Beautiful Testimonia 3</h4>
+        </div>
     </section>
     <!-- testimonials // end -->
 
@@ -85,9 +96,16 @@
     </section>
     <!-- get a quote // end -->
 
-    <footer>
-        <div>logo on the footer</div>
-        <div>links</div>
+    <footer class="row">
+        <div>
+            <img src="https://www.ironhack.com/assets/icons/ironhack_logos/logo.svg" alt="Ironhack logo" width="30px">
+        </div>
+        <div>
+            About
+            Services
+            FAQ
+
+        </div>
         <div>social networks</div>
     </footer>
 </body>

@@ -7,6 +7,13 @@ body {
     margin: 0;
     padding: 0;
 }
+
+header {
+    
+    justify-content: space-around;
+   
+}
+
 section {
     border: 1px red dotted;
     min-height: 100vh;
@@ -20,17 +27,15 @@ i {
 }
 
 h1 {
-   
-    color:aqua;
+   color:aqua;
 }
 
 h2 {
-   
-    color: yellow;
+   color: yellow;
 }
 
 h3 {
-    color: blueviolet
+    color: white
 }
 
 h4 {
@@ -55,11 +60,29 @@ li {
     display: inline;
 }
 
+footer {
+  
+    justify-content: space-between;
+    align-items: center;
+}
+
 /* } Text Style // end */
 
 
 
 /* CLASSES */
+
+.row {
+    display: flex;
+}
+
+.hero {
+    text-align: center;
+    background-image: url("../img/guillaume-briard-lSXpV8bDeMA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 .bgcolorSection1 {
     background-color: blueviolet;
@@ -83,4 +106,20 @@ li {
 
 .fa-search-plus {
     color: black;
+}
+
+.centerSection {
+    text-align: center;
+}
+/* ID */
+
+#featuresSection {
+    justify-content: space-between;
+    align-items: center;
+}
+
+#testimonialSection {
+    /* justify-content: center; */
+    width: 300px ;
+    text-align: center;
 }
