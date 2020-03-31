@@ -11,7 +11,7 @@ body {
 header {
     
     justify-content: space-around;
-   
+    padding: 1.2em;
 }
 
 section {
@@ -58,8 +58,32 @@ ul {
 
 li {
     display: inline;
+    padding: 1.2em;
+}
+a {
+    text-decoration: none;
+    /* color: black; */
+    /* margin: 0.8em; */
 }
 
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: green;
+}
+
+a:active {
+    color:yellow ;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+    background-color: chartreuse;
+    /* padding: 0.12em; */
+}
 footer {
   
     justify-content: space-between;
@@ -111,6 +135,14 @@ footer {
 .centerSection {
     text-align: center;
 }
+
+.footer-menu {
+    display: block;
+    padding: 0 1.2em 1.2em 0;
+}
+
+
+
 /* ID */
 
 #featuresSection {
@@ -120,6 +152,6 @@ footer {
 
 #testimonialSection {
     /* justify-content: center; */
-    width: 300px ;
+    width: 500px ;
     text-align: center;
 }
